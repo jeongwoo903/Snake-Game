@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9d371;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 10px solid #ff5448;
+}
+
+.icon {
+    width: 33.75rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+.icon>a {
+    display: inline-block;
+}
+
+.icon .score {
+    color: #ff5448;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
